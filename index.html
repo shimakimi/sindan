@@ -1,0 +1,112 @@
+<html>
+<head>
+  <title>稼ぎ方診断</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+</script>
+
+<div class="choose_box">
+      <!-- 質問一覧 -->
+      <div class="app-theme">
+        <p>稼ぎ方診断アプリ(全5問)</p>
+      </div>
+      <!-- 質問1 -->
+      <div id="q_01" class="fit">
+        <p>質問1: あなたは普段　</p>
+        <ul>
+          <li><a class="btn" href="#q_02" data-value="a">外交的</a></li>
+          <li><a class="btn" href="#q_02" data-value="b">内向的</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問2 -->
+      <div id="q_02" style="display: none;">
+        <p>質問2:　あなたは普段、提案する場面の時</p>
+        <ul>
+          <li><a class="btn" href="#q_03" data-value="a">自分から提案していく</a></li>
+          <li><a class="btn" href="#q_03" data-value="b">相手の提案を待つ</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問3 -->
+      <div id="q_03" style="display: none;">
+        <p>質問3:　あなたは集団行動の時</p>
+        <ul>
+          <li><a class="btn" href="#q_04" data-value="a">自分から引っ張っていく</a></li>
+          <li><a class="btn" href="#q_04" data-value="b">周りにお任せ</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問4 -->
+      <div id="q_04" style="display: none;">
+        <p>質問4:　あなたの休みの日の過ごし方</p>
+        <ul>
+          <li><a class="btn" href="#q_05" data-value="a">外出する</a></li>
+          <li><a class="btn" href="#q_05" data-value="b">家で過ごす</a></li>
+        </ul>
+      </div>
+
+      <!-- 質問5 -->
+      <div id="q_05" style="display: none;">
+        <p>質問5:　自分で計画を立てる時</p>
+        <ul>
+          <li><a class="btn end" data-value="a">自分で計画する</a></li>
+          <li><a class="btn end" data-value="b">人に意見を聞く</a></li>
+        </ul>
+      </div>
+
+
+
+<!-- ここから以下回答 -->
+  <!-- 回答の答え1 -->
+     <div id="answer_01" class="result" style="display: none;">
+      <div class="result_theme ">
+            <p>あなたの稼ぎ方は</p>
+      </div>
+      <div class="result_type0 ">
+            <h4>『プッシュ型』タイプ</h4>
+      </div>
+      <div class="result_discription0">
+        <h2>自分から積極的にビジネス展開することができます</h2>
+        <p>
+          　あなたはセールスや社交的な場で力を発揮できます。
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+       </div>
+     </div>
+
+
+
+  <!-- 回答の答え2 -->
+     <div id="answer_02" style="display: none;">
+          <div class="result_theme ">
+            <p>あなたの稼ぎ方は</p>
+      </div>
+      <div class="result_type1 ">
+            <h4>『プル型』タイプ</h4>
+      </div>
+      <div class="result_discription1">
+        <h2>あなたはコンテンツを作って人を集めることで発揮します</h2>
+        <p>
+          　あなたは自分の中の出来事や見方をコンテンツとして発信することがとくいです。
+        </p>
+      </div>
+       <div class="return-btn">
+        <a class="return" href="index.html">もどる</a>
+       </div>
+     </div>
+
+ </div>
+
+
+
+
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script type="text/javascript" src="index.js"></script>
+</body>
+</html>
